@@ -1,0 +1,25 @@
+Sort by week day / start time / end time / coursenum
+Day        Start Time  End Time  Coursenum  Class Title                    
+---------  ----------  --------  ---------  ---------------------------
+Monday     10:00AM     11:50AM   2500-01    GENETICS_&_EVOLUTION           
+Monday     12:00PM     01:50PM   2010-02    ELECTRIC_CIRCUITS              
+Monday     02:00PM     03:50PM   2050-03    INTRODUCTION_TO_ELECTRONICS    
+Monday     04:00PM     05:20PM   2500-01    ENGINEERING_PROBABILITY        
+Tuesday    08:00AM     09:50AM   2730-01    SOCIAL_PSYCHOLOGY              
+Tuesday    10:00AM     11:50AM   2210-01    QUANTUM_PHYSICS_I              
+Tuesday    12:00PM     01:20PM   1500-02    CALC_I_FOR_ARCH,_MGMT_&_HASS   
+Tuesday    02:00PM     03:50PM   2020-03    INTERMEDIATE_MACROECON_THEORY  
+Tuesday    04:00PM     04:50PM   1824-01    STUDENT_SUCCESS_LABS           
+Wednesday  10:00AM     11:50AM   4010-03    PROFESSIONAL_DEVEL_III         
+Wednesday  12:00PM     01:50PM   4010-04    PROFESSIONAL_DEVEL_III         
+Wednesday  02:00PM     03:50PM   4010-05    PROFESSIONAL_DEVEL_III         
+Thursday   10:00AM     11:50AM   2500-01    GENETICS_&_EVOLUTION           
+Thursday   12:00PM     01:50PM   2010-02    ELECTRIC_CIRCUITS              
+Thursday   02:00PM     03:50PM   2050-03    INTRODUCTION_TO_ELECTRONICS    
+Thursday   04:00PM     05:20PM   2500-01    ENGINEERING_PROBABILITY        
+Friday     08:00AM     09:50AM   2730-01    SOCIAL_PSYCHOLOGY              
+Friday     10:00AM     11:50AM   2210-01    QUANTUM_PHYSICS_I              
+Friday     12:00PM     01:20PM   1500-02    CALC_I_FOR_ARCH,_MGMT_&_HASS   
+Friday     02:00PM     03:50PM   2020-03    INTERMEDIATE_MACROECON_THEORY  
+20 entries
+

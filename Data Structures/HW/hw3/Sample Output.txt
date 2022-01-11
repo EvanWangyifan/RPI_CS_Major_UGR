@@ -1,0 +1,94 @@
+yifan$ cd desktop/ds/hw/hw3
+yifan$ g++ main.cpp
+yifan$ ./a.out
+. . . . . 
+. . . . . 
+constructor test completed
+a b c d e 
+f g h i j 
+set & get tests completed
+a b c d e 
+f g h i j 
+A B C D E 
+add row test completed
+a b c d 
+f g h i 
+A B C D 
+remove column test completed
+a b c d X 
+f g h i Y 
+A B C D Z 
+add column test completed
+a b c d X 
+f g h i Y 
+remove row test completed
+a b c d X 
+f g h i Y 
+a b c d X 
+f g Q i Y 
+A B C D E 
+copy constructor test completed
+assignment operator test completed
+Simple test completed.
+.. .. .. 
+.. .. .. 
+.. .. .. 
+both constructor test completed
+.. .. .. 
+.. .. .. 
+.. .. .. 
+aa bb cc 
+dd ee ff 
+gg hh ii 
+set & get tests completed
+1 2 3 
+4 5 6 
+7 8 9 
+10 11 12 
+aa bb cc 
+dd ee ff 
+gg hh ii 
+jj kk ll 
+add row test completed
+1 2 
+4 5 
+7 8 
+10 11 
+aa bb 
+dd ee 
+gg hh 
+jj kk 
+remove column test completed
+1 2 13 
+4 5 14 
+7 8 15 
+10 11 16 
+aa bb xx 
+dd ee yy 
+gg hh zz 
+jj kk mm 
+add column test completed
+1 2 13 
+4 5 14 
+7 8 15 
+aa bb xx 
+dd ee yy 
+gg hh zz 
+remove row test completed
+1 2 13 
+4 5 14 
+7 8 15 
+1 2 13 
+4 5 19 
+7 8 15 
+10 11 12 
+aa bb xx 
+dd ee yy 
+gg hh zz 
+aa bb xx 
+dd ee oo 
+gg hh zz 
+jj kk ll 
+copy constructor test completed
+assignment operator test completed
+Student tests completed.
