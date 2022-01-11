@@ -1,0 +1,36 @@
+------------------------
+Graph 1
+------------------------
+itr 1: A
+itr 2: A|HC
+itr 3: A|HC|GFD
+itr 4: A|HC|GFD|I
+
+itr 1: G
+itr 2: G|I
+itr 3: G|I|H
+itr 4: G|I|H|F
+itr 5: G|I|H|F|J
+itr 6: G|I|H|F|J|C
+itr 7: G|I|H|F|J|C|D
+------------------------
+Graph 2
+------------------------
+itr 1: A
+itr 2: A|BD
+itr 3: A|BD|CEH
+itr 4: A|BD|CEH|FGI
+
+itr 1: G
+itr 2: G|D
+itr 3: G|D|H
+itr 4: G|D|H|FI
+------------------------
+Graph 3
+------------------------
+itr 1: A
+itr 2: A|BCF
+itr 3: A|BCF|EDG
+itr 4: A|BCF|EDG|H
+
+itr 1: G
