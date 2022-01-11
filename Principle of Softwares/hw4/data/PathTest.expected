@@ -1,0 +1,64 @@
+commands available:
+b: list all buildings in (name,id) format in lexicographic order.
+r: input two building and get a shortest path.
+q: quit the program.
+m: list the menu.
+First building id/name, followed by Enter: Second building id/name, followed by Enter: Path from Field House Houston to EMPAC:
+	Walk West to (Intersection 113)
+	Walk North to (Intersection 111)
+	Walk West to (Intersection 117)
+	Walk West to (Intersection 112)
+	Walk SouthWest to (2021 Peoples Avenue)
+	Walk West to (Beman Park Firehouse)
+	Walk West to (Alumni House)
+	Walk SouthWest to (H Building)
+	Walk South to (North Hall)
+	Walk SouthWest to (Intersection 132)
+	Walk SouthWest to (Troy Building)
+	Walk SouthWest to (Intersection 133)
+	Walk SouthWest to (Intersection 134)
+	Walk SouthWest to (Lally Hall)
+	Walk South to (Folsom Library)
+	Walk SouthWest to (EMPAC)
+Total distance: 1473.118 pixel units.
+First building id/name, followed by Enter: Second building id/name, followed by Enter: Unknown building: [108]
+Unknown building: []
+First building id/name, followed by Enter: Second building id/name, followed by Enter: Unknown building: [108]
+Unknown building: []
+First building id/name, followed by Enter: Second building id/name, followed by Enter: Unknown building: [108]
+First building id/name, followed by Enter: Second building id/name, followed by Enter: Unknown building: []
+First building id/name, followed by Enter: Second building id/name, followed by Enter: Path from Service Building to Sharp Hall:
+	Walk South to (Blaw-Knox 1 & 2)
+	Walk East to (E Complex)
+	Walk East to (Intersection 108)
+	Walk South to (Intersection 106)
+	Walk SouthEast to (Public Safety)
+	Walk SouthEast to (Intersection 103)
+	Walk SouthEast to (Intersection 122)
+	Walk South to (Nugent Hall)
+	Walk SouthEast to (Sharp Hall)
+Total distance: 963.529 pixel units.
+First building id/name, followed by Enter: Second building id/name, followed by Enter: Path from West Hall to Russell Sage Dining Hall:
+	Walk East to (Intersection 130)
+	Walk SouthEast to (Intersection 107)
+	Walk East to (Russell Sage Laboratory)
+	Walk East to (Troy Building)
+	Walk East to (Ricketts Building)
+	Walk East to (87 Gymnasium)
+	Walk SouthEast to (Russell Sage Dining Hall)
+Total distance: 545.459 pixel units.
+First building id/name, followed by Enter: Second building id/name, followed by Enter: There is no path from EMPAC to Polytechnic Residence Commons.
+First building id/name, followed by Enter: Second building id/name, followed by Enter: Path from Lally Hall to Public Safety:
+	Walk East to (Greene Building)
+	Walk SouthEast to (Engineering Center)
+	Walk East to (Intersection 142)
+	Walk East to (Intersection 141)
+	Walk East to (Public Safety)
+Total distance: 444.300 pixel units.
+First building id/name, followed by Enter: Second building id/name, followed by Enter: Path from Public Safety to Lally Hall:
+	Walk West to (Intersection 141)
+	Walk West to (Intersection 142)
+	Walk West to (Engineering Center)
+	Walk NorthWest to (Greene Building)
+	Walk West to (Lally Hall)
+Total distance: 444.300 pixel units.
