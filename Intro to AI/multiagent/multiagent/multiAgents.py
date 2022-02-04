@@ -309,8 +309,7 @@ def betterEvaluationFunction(currentGameState):
 
                     currentScore + 10/minFoodMHTDis - remainingFoodCount/10 - 1/(minGhostMHTDis*4) + ScaredTimes
 
-                    I adjusted the coefficients multiple times to achieve the 'optimal' outcomes
-                    >
+                    I adjusted the coefficients multiple times to achieve the 'optimal' outcomes>
     """
     "*** YOUR CODE HERE ***"
     # Useful information you can extract from a GameState (pacman.py)

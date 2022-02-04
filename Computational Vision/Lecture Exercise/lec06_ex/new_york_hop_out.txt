@@ -1,0 +1,3 @@
+updating: lec06_start.py (deflated 37%)
+updating: lec06_ex.pdf (deflated 1%)
+updating: new_york_hop.jpg (deflated 0%)

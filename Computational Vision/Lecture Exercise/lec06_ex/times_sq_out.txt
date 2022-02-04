@@ -1,0 +1,4 @@
+Two-valued average: 6.3
+Sobel average: 6.0
+Max abs diff: 28.4
+Pct two-valued greater: 60
