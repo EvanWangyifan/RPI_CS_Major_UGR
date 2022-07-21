@@ -1,0 +1,31 @@
+PS C:\Yifan\Computational Vision\homework\hw4> python hw4_align.py frear-park out   
+
+out_dir <out> has been created :)
+
+STEP1: # of keypoints in image1 is: 668
+STEP1: # of keypoints in image2 is: 863
+
+----------STEP2: matching for image1 and image2 STARTS----------
+# of Matching keypoints: 152
+RATIO of matching to total in image1: 0.228
+RATIO of matching to total in image2: 0.176
+STEP2: drawMatches graph out\image1_image2_STEP2.jpg created
+----------STEP2: matching for image1 and image2 ENDS----------
+
+
+----------STEP3: match percentage thresholding
+----------STEP3: GOOD enough, continue
+
+----------STEP4----------
+# of matches that are F inlier: 144
+% of matches that are F inlier: 94.74% (144/152)
+STEP4: drawMatches_F graph out\image1_image2_STEP4.jpg created
+
+----------STEP5: GOOD enough, continue
+
+----------STEP6----------
+# of matches that are H inlier: 130
+% of matches that are H inlier: 85.53% (130/152)
+STEP6: drawMatches_H graph out\image1_image2_STEP6.jpg created
+
+----------STEP7: GOOD enough, continue

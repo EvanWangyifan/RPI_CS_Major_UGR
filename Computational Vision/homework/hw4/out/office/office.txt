@@ -1,0 +1,88 @@
+PS C:\Yifan\Computational Vision\homework\hw4> python hw4_align.py office out
+
+out_dir <out> has been created :)
+
+STEP1: # of keypoints in IMG2536 is: 683
+STEP1: # of keypoints in IMG2537 is: 611
+STEP1: # of keypoints in IMG2538 is: 753
+
+----------STEP2: matching for IMG2536 and IMG2537 STARTS----------
+# of Matching keypoints: 258
+RATIO of matching to total in IMG2536: 0.378
+RATIO of matching to total in IMG2537: 0.422
+STEP2: drawMatches graph out\IMG2536_IMG2537_STEP2.jpg created
+----------STEP2: matching for IMG2536 and IMG2537 ENDS----------
+
+
+----------STEP3: match percentage thresholding
+----------STEP3: GOOD enough, continue
+
+----------STEP4----------
+# of matches that are F inlier: 177
+% of matches that are F inlier: 68.60% (177/258)
+STEP4: drawMatches_F graph out\IMG2536_IMG2537_STEP4.jpg created
+
+----------STEP5: GOOD enough, continue
+
+----------STEP6----------
+# of matches that are H inlier: 117
+% of matches that are H inlier: 45.35% (117/258)
+STEP6: drawMatches_H graph out\IMG2536_IMG2537_STEP6.jpg created
+
+----------STEP7: GOOD enough, continue
+
+----------STEP2: matching for IMG2536 and IMG2538 STARTS----------
+# of Matching keypoints: 151
+RATIO of matching to total in IMG2536: 0.221
+RATIO of matching to total in IMG2538: 0.201
+STEP2: drawMatches graph out\IMG2536_IMG2538_STEP2.jpg created
+----------STEP2: matching for IMG2536 and IMG2538 ENDS----------
+
+
+----------STEP3: match percentage thresholding
+----------STEP3: GOOD enough, continue
+
+----------STEP4----------
+# of matches that are F inlier: 89
+% of matches that are F inlier: 58.94% (89/151)
+STEP4: drawMatches_F graph out\IMG2536_IMG2538_STEP4.jpg created
+
+----------STEP5: GOOD enough, continue
+
+----------STEP6----------
+# of matches that are H inlier: 37
+% of matches that are H inlier: 24.50% (37/151)
+STEP6: drawMatches_H graph out\IMG2536_IMG2538_STEP6.jpg created
+
+----------STEP7: Too LOW percentage of match----------
+STEP7: stop attempting to match office\IMG2536.JPG and office\IMG2538.JPG
+
+
+
+----------STEP2: matching for IMG2537 and IMG2538 STARTS----------
+# of Matching keypoints: 121
+RATIO of matching to total in IMG2537: 0.198
+RATIO of matching to total in IMG2538: 0.161
+STEP2: drawMatches graph out\IMG2537_IMG2538_STEP2.jpg created
+----------STEP2: matching for IMG2537 and IMG2538 ENDS----------
+
+
+----------STEP3: match percentage thresholding
+----------STEP3: GOOD enough, continue
+
+----------STEP4----------
+# of matches that are F inlier: 72
+% of matches that are F inlier: 59.50% (72/121)
+STEP4: drawMatches_F graph out\IMG2537_IMG2538_STEP4.jpg created
+
+----------STEP5: GOOD enough, continue
+
+----------STEP6----------
+# of matches that are H inlier: 38
+% of matches that are H inlier: 31.40% (38/121)
+STEP6: drawMatches_H graph out\IMG2537_IMG2538_STEP6.jpg created
+
+----------STEP7: Too LOW percentage of match----------
+STEP7: stop attempting to match office\IMG2537.JPG and office\IMG2538.JPG
+
+

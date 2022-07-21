@@ -1,0 +1,75 @@
+PS C:\Yifan\Computational Vision\homework\hw4> python hw4_align.py drink-machine out
+
+out_dir <out> has been created :)
+
+STEP1: # of keypoints in image1 is: 3590
+STEP1: # of keypoints in image2 is: 4713
+STEP1: # of keypoints in image3 is: 3687
+
+----------STEP2: matching for image1 and image2 STARTS----------
+# of Matching keypoints: 309
+RATIO of matching to total in image1: 0.086
+RATIO of matching to total in image2: 0.066
+STEP2: drawMatches graph out\image1_image2_STEP2.jpg created
+----------STEP2: matching for image1 and image2 ENDS----------
+
+
+----------STEP3: match percentage thresholding
+----------STEP3: GOOD enough, continue
+
+----------STEP4----------
+# of matches that are F inlier: 136
+% of matches that are F inlier: 44.01% (136/309)
+STEP4: drawMatches_F graph out\image1_image2_STEP4.jpg created
+
+----------STEP5: GOOD enough, continue
+
+----------STEP6----------
+# of matches that are H inlier: 29
+% of matches that are H inlier: 9.39% (29/309)
+STEP6: drawMatches_H graph out\image1_image2_STEP6.jpg created
+
+----------STEP7: Too LOW percentage of match----------
+STEP7: stop attempting to match drink-machine\image1.JPG and drink-machine\image2.JPG
+
+
+
+----------STEP2: matching for image1 and image3 STARTS----------
+# of Matching keypoints: 118
+RATIO of matching to total in image1: 0.033
+RATIO of matching to total in image3: 0.032
+STEP2: drawMatches graph out\image1_image3_STEP2.jpg created
+----------STEP2: matching for image1 and image3 ENDS----------
+
+
+----------STEP3: match percentage thresholding
+----------STEP3: Too LOW percentage of match----------
+STEP3: stop attempting to match drink-machine\image1.JPG and drink-machine\image3.JPG
+
+----------STEP2: matching for image2 and image3 STARTS----------
+# of Matching keypoints: 364
+RATIO of matching to total in image2: 0.077
+RATIO of matching to total in image3: 0.099
+STEP2: drawMatches graph out\image2_image3_STEP2.jpg created
+----------STEP2: matching for image2 and image3 ENDS----------
+
+
+----------STEP3: match percentage thresholding
+----------STEP3: GOOD enough, continue
+
+----------STEP4----------
+# of matches that are F inlier: 134
+% of matches that are F inlier: 36.81% (134/364)
+STEP4: drawMatches_F graph out\image2_image3_STEP4.jpg created
+
+----------STEP5: GOOD enough, continue
+
+----------STEP6----------
+# of matches that are H inlier: 39
+% of matches that are H inlier: 10.71% (39/364)
+STEP6: drawMatches_H graph out\image2_image3_STEP6.jpg created
+
+----------STEP7: Too LOW percentage of match----------
+STEP7: stop attempting to match drink-machine\image2.JPG and drink-machine\image3.JPG
+
+

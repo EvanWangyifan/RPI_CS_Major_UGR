@@ -1,0 +1,75 @@
+PS C:\Yifan\Computational Vision\homework\hw4> python hw4_align.py vcc-entrance out
+
+out_dir <out> has been created :)
+
+STEP1: # of keypoints in image1 is: 2336
+STEP1: # of keypoints in image2 is: 4455
+STEP1: # of keypoints in image3 is: 491
+
+----------STEP2: matching for image1 and image2 STARTS----------
+# of Matching keypoints: 965
+RATIO of matching to total in image1: 0.413
+RATIO of matching to total in image2: 0.217
+STEP2: drawMatches graph out\image1_image2_STEP2.jpg created
+----------STEP2: matching for image1 and image2 ENDS----------
+
+
+----------STEP3: match percentage thresholding
+----------STEP3: GOOD enough, continue
+
+----------STEP4----------
+# of matches that are F inlier: 776
+% of matches that are F inlier: 80.41% (776/965)
+STEP4: drawMatches_F graph out\image1_image2_STEP4.jpg created
+
+----------STEP5: GOOD enough, continue
+
+----------STEP6----------
+# of matches that are H inlier: 343
+% of matches that are H inlier: 35.54% (343/965)
+STEP6: drawMatches_H graph out\image1_image2_STEP6.jpg created
+
+----------STEP7: Too LOW percentage of match----------
+STEP7: stop attempting to match vcc-entrance\image1.JPG and vcc-entrance\image2.JPG
+
+
+
+----------STEP2: matching for image1 and image3 STARTS----------
+# of Matching keypoints: 125
+RATIO of matching to total in image1: 0.054
+RATIO of matching to total in image3: 0.255
+STEP2: drawMatches graph out\image1_image3_STEP2.jpg created
+----------STEP2: matching for image1 and image3 ENDS----------
+
+
+----------STEP3: match percentage thresholding
+----------STEP3: GOOD enough, continue
+
+----------STEP4----------
+# of matches that are F inlier: 26
+% of matches that are F inlier: 20.80% (26/125)
+STEP4: drawMatches_F graph out\image1_image3_STEP4.jpg created
+
+----------STEP5: GOOD enough, continue
+
+----------STEP6----------
+# of matches that are H inlier: 9
+% of matches that are H inlier: 7.20% (9/125)
+STEP6: drawMatches_H graph out\image1_image3_STEP6.jpg created
+
+----------STEP7: Too LOW percentage of match----------
+STEP7: stop attempting to match vcc-entrance\image1.JPG and vcc-entrance\image3.JPG
+
+
+
+----------STEP2: matching for image2 and image3 STARTS----------
+# of Matching keypoints: 202
+RATIO of matching to total in image2: 0.045
+RATIO of matching to total in image3: 0.411
+STEP2: drawMatches graph out\image2_image3_STEP2.jpg created
+----------STEP2: matching for image2 and image3 ENDS----------
+
+
+----------STEP3: match percentage thresholding
+----------STEP3: Too LOW percentage of match----------
+STEP3: stop attempting to match vcc-entrance\image2.JPG and vcc-entrance\image3.JPG

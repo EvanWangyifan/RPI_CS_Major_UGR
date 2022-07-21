@@ -1,0 +1,141 @@
+PS C:\Yifan\Computational Vision\homework\hw4> python hw4_align.py tree_mrc out  
+
+out_dir <out> has been created :)
+
+STEP1: # of keypoints in image1 is: 6864
+STEP1: # of keypoints in image2 is: 7291
+STEP1: # of keypoints in image3 is: 5999
+STEP1: # of keypoints in image4 is: 5463
+
+----------STEP2: matching for image1 and image2 STARTS----------
+# of Matching keypoints: 1621
+RATIO of matching to total in image1: 0.236
+RATIO of matching to total in image2: 0.222
+STEP2: drawMatches graph out\image1_image2_STEP2.jpg created
+----------STEP2: matching for image1 and image2 ENDS----------
+
+
+----------STEP3: match percentage thresholding
+----------STEP3: GOOD enough, continue
+
+----------STEP4----------
+# of matches that are F inlier: 1395
+% of matches that are F inlier: 86.06% (1395/1621)
+STEP4: drawMatches_F graph out\image1_image2_STEP4.jpg created
+
+----------STEP5: GOOD enough, continue
+
+----------STEP6----------
+# of matches that are H inlier: 660
+% of matches that are H inlier: 40.72% (660/1621)
+STEP6: drawMatches_H graph out\image1_image2_STEP6.jpg created
+
+----------STEP7: GOOD enough, continue
+
+----------STEP2: matching for image1 and image3 STARTS----------
+# of Matching keypoints: 503
+RATIO of matching to total in image1: 0.073
+RATIO of matching to total in image3: 0.084
+STEP2: drawMatches graph out\image1_image3_STEP2.jpg created
+----------STEP2: matching for image1 and image3 ENDS----------
+
+
+----------STEP3: match percentage thresholding
+----------STEP3: GOOD enough, continue
+
+----------STEP4----------
+# of matches that are F inlier: 317
+% of matches that are F inlier: 63.02% (317/503)
+STEP4: drawMatches_F graph out\image1_image3_STEP4.jpg created
+
+----------STEP5: GOOD enough, continue
+
+----------STEP6----------
+# of matches that are H inlier: 114
+% of matches that are H inlier: 22.66% (114/503)
+STEP6: drawMatches_H graph out\image1_image3_STEP6.jpg created
+
+----------STEP7: Too LOW percentage of match----------
+STEP7: stop attempting to match tree_mrc\image1.JPG and tree_mrc\image3.JPG
+
+
+
+----------STEP2: matching for image1 and image4 STARTS----------
+# of Matching keypoints: 110
+RATIO of matching to total in image1: 0.016
+RATIO of matching to total in image4: 0.020
+STEP2: drawMatches graph out\image1_image4_STEP2.jpg created
+----------STEP2: matching for image1 and image4 ENDS----------
+
+
+----------STEP3: match percentage thresholding
+----------STEP3: Too LOW percentage of match----------
+STEP3: stop attempting to match tree_mrc\image1.JPG and tree_mrc\image4.JPG
+
+----------STEP2: matching for image2 and image3 STARTS----------
+# of Matching keypoints: 1295
+RATIO of matching to total in image2: 0.178
+RATIO of matching to total in image3: 0.216
+STEP2: drawMatches graph out\image2_image3_STEP2.jpg created
+----------STEP2: matching for image2 and image3 ENDS----------
+
+
+----------STEP3: match percentage thresholding
+----------STEP3: GOOD enough, continue
+
+----------STEP4----------
+# of matches that are F inlier: 907
+% of matches that are F inlier: 70.04% (907/1295)
+STEP4: drawMatches_F graph out\image2_image3_STEP4.jpg created
+
+----------STEP5: GOOD enough, continue
+
+----------STEP6----------
+# of matches that are H inlier: 393
+% of matches that are H inlier: 30.35% (393/1295)
+STEP6: drawMatches_H graph out\image2_image3_STEP6.jpg created
+
+----------STEP7: Too LOW percentage of match----------
+STEP7: stop attempting to match tree_mrc\image2.JPG and tree_mrc\image3.JPG
+
+
+
+----------STEP2: matching for image2 and image4 STARTS----------
+# of Matching keypoints: 309
+RATIO of matching to total in image2: 0.042
+RATIO of matching to total in image4: 0.057
+STEP2: drawMatches graph out\image2_image4_STEP2.jpg created
+----------STEP2: matching for image2 and image4 ENDS----------
+
+
+----------STEP3: match percentage thresholding
+----------STEP3: Too LOW percentage of match----------
+STEP3: stop attempting to match tree_mrc\image2.JPG and tree_mrc\image4.JPG
+
+----------STEP2: matching for image3 and image4 STARTS----------
+# of Matching keypoints: 730
+RATIO of matching to total in image3: 0.122
+RATIO of matching to total in image4: 0.134
+STEP2: drawMatches graph out\image3_image4_STEP2.jpg created
+----------STEP2: matching for image3 and image4 ENDS----------
+
+
+----------STEP3: match percentage thresholding
+----------STEP3: GOOD enough, continue
+
+----------STEP4----------
+# of matches that are F inlier: 500
+% of matches that are F inlier: 68.49% (500/730)
+STEP4: drawMatches_F graph out\image3_image4_STEP4.jpg created
+
+----------STEP5: GOOD enough, continue
+
+----------STEP6----------
+# of matches that are H inlier: 190
+% of matches that are H inlier: 26.03% (190/730)
+STEP6: drawMatches_H graph out\image3_image4_STEP6.jpg created
+
+----------STEP7: Too LOW percentage of match----------
+STEP7: stop attempting to match tree_mrc\image3.JPG and tree_mrc\image4.JPG
+
+
